@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/final_back_img" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memories"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#659BF6"
+        android:fontFamily="@font/josefin_sans"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_final"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Email"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/josefin_sans"
+            android:textColorHint="#9DC0F9"
+            android:textColor="#659BF6"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/icon_email"
+            android:background="@drawable/round_corner"
+            android:paddingStart="20dp"
+            android:drawablePadding="12dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:fontFamily="@font/josefin_sans"
+            android:gravity="center_vertical"
+            android:textColorHint="#9DC0F9"
+            android:textColor="#659BF6"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:maxLines="1"
+            android:drawableStart="@drawable/icon_password"
+            android:background="@drawable/round_corner"
+            android:paddingStart="20dp"
+            android:drawablePadding="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_btn"
+            android:background="@drawable/background_adult"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Login"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/josefin_sans"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="start|bottom"
+                android:src="@drawable/leaves"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

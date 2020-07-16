@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_featured"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginStart="12dp"
+    app:strokeColor="@color/colorPrimary"
+    app:strokeWidth="0.3dp"
+    app:cardCornerRadius="12dp"
+    android:elevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tapan is a good boy"
+        android:textSize="20sp"
+        android:fontFamily="@font/brandon"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- "
+                android:textSize="22sp"
+                android:fontFamily="@font/brandon"/>
+            <TextView
+                android:id="@+id/quoteWriter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tapan"
+                android:textSize="22sp"
+                android:fontFamily="@font/brandon"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

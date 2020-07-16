@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "839190883860",
+    "firebase_url": "https://memories-bf7c6.firebaseio.com",
+    "project_id": "memories-bf7c6",
+    "storage_bucket": "memories-bf7c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839190883860:android:92398f3a25ca2b1218c101",
+        "android_client_info": {
+          "package_name": "com.tapan.collegememories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839190883860-kgr9k9aj6rjtn2fg0s9hqhhpm1oaj0ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4hvN47TzrwB7QTt_JfRT_Srknv_0o3H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839190883860-kgr9k9aj6rjtn2fg0s9hqhhpm1oaj0ir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839190883860:android:5fd610f8388feca918c101",
+        "android_client_info": {
+          "package_name": "com.example.memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839190883860-kgr9k9aj6rjtn2fg0s9hqhhpm1oaj0ir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4hvN47TzrwB7QTt_JfRT_Srknv_0o3H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839190883860-kgr9k9aj6rjtn2fg0s9hqhhpm1oaj0ir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

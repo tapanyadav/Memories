@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/main"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+
+    </group>
+
+
+    <group
+        android:id="@+id/help"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/quotes"
+            android:icon="@drawable/quote"
+            android:title="Quotes" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/icon_feedback"
+            android:title="Feedback" />
+
+    </group>
+
+    <group
+        android:id="@+id/log"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/icon_signout"
+            android:title="Log Out" />
+    </group>
+
+
+
+</menu>
