@@ -6,12 +6,12 @@
 
 ## Screenshots
 
-[<img src="Memories/../Screenshots/Splash.png" width=160>](Memories/../Screenshots/Splash.png)
-[<img src="Memories/../Screenshots/Login.png" width=160>](Memories/../Screenshots/Login.png)
-[<img src="Memories/../Screenshots/Home Page.png" width=160>](Memories/../Screenshots/Home Page.png)
-[<img src="Memories/../Screenshots/Profile Page.png" width=160>](Memories/../Screenshots/Profile Page.png)
-[<img src="Memories/../Screenshots/Edit Profile.png" width=160>](Memories/../Screenshots/Edit Profile.png)
-[<img src="Memories/../Screenshots/OnBoard1.png" width=400 height = 210>](Memories/../Screenshots/OnBoard1.png)
+<img src="Memories/../Screenshots/Splash.png" width=160>
+<img src="Memories/../Screenshots/Login.png" width=160>
+<img src="Memories/../Screenshots/Home Page.png" width=160>
+<img src="Memories/../Screenshots/Profile Page.png" width=160>
+<img src="Memories/../Screenshots/Edit Profile.png" width=160>
+<img src="Memories/../Screenshots/OnBoard1.png" width=400 height = 210>
 
 ## Description
 
