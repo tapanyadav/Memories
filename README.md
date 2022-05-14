@@ -2,11 +2,9 @@
 <h2 align="center"><b>Memories</b></h2>
 <h4 align="center">A personal app for sharing college memories for Android.</h4>
 
-<hr>
-
 ## Screenshots
 
-<img src="Memories/../Screenshots/Splash.png" width=160>
+[<img src="Memories/../Screenshots/Splash.png" width=160>]()
 <img src="Memories/../Screenshots/Login.png" width=160>
 <img src="Memories/../Screenshots/Home Page.png" width=160>
 <img src="Memories/../Screenshots/Profile Page.png" width=160>
